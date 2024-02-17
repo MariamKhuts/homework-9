@@ -1,28 +1,74 @@
-
-.navigation { display:flex;
-             padding-top:34.5px;
-             padding-left: 32px;
-             max-width: 1440px;
-             height: 96px;
-             width: 100%;
-             background-color: yellow;
-             
-            }
-
-.nav-list {display: flex;
-           color: black;
+          /*header*/
+.header-wraper { max-width:1440px ;
+               height:96px;
+               width: 100%;
+               }
+.logo-nav {display: flex;
+           justify-content: space-between;
+           align-items: center;
+           background-color: white;
+           padding-top: 32px;
+           padding-bottom: 32px;
+           width: 95%;
+         }
+.ul-nav {display: flex;
+        }
+.last-div {margin-left: 423px;
+           margin-right: 424px;
+          }  
+.link { color: black;
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        line-height: 19.36px;
+    }
+.burger-bar  {display: none;
+             }
+.second    {margin-left: 24px;
+            margin-right: 24px;
            }
-.list {color: black;
-       font-size: 16px;
-       line-height: 19.3px;}
-
-.nav-div { display: flex;
-          }
+.fourth {margin-left: 24px;
+         margin-right: 24px;
+    }    
 .action-div { width: 100px;
-              height: 48px;
-             background-color: black;
-             border-radius :32px;
-            justify-content: center;
-         ;}
+              height:48px;
+              background-color: black;
+              border-radius: 32px;
+            }
 .action-text {color: white;
-       text-align: center;}
+              font-size: 16px;
+              text-align: center ; 
+              margin-top: 12px;}
+
+
+             /* header responsive */
+
+@media  (max-width:375px)  {
+       .list-div {  display: none; }
+       .burger-bar { display:block; }
+}
+
+        
+        /* section1  */
+.container {max-width: 1440%;
+           width:95%;
+           background-color: green;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+              }
+.left-block {width: 490px;
+             height: 200px;
+            background-color: red;
+            text-align: left;}
+.second-action {  display: flex;}
+.title { font-size: 56px;
+         line-height: 60px;
+         font-family: "Inter", sans-serif;
+         font-weight: 900px;}
+.text1 { font-size: 18px;
+         line-height: 18px;
+         color: 000000;
+         margin-top: 24px;
+         font-family: "Inter", sans-serif;
+         font-weight: 400px;}
